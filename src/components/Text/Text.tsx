@@ -48,7 +48,7 @@ export const Text = styled("p").attrs<TTextProps>(
     } = theme.typography[styleVariant];
     return css`
       color ${
-        colorVariant ? theme.colors[colorVariant] : theme.colors.onbackground
+        colorVariant ? theme.colors[colorVariant] : theme.colors.onBackground
       };
       font-family: ${fontFamily};
       font-size: ${fontSize}px;

@@ -21,57 +21,57 @@ export const useGenerateButtonData = () => {
       primary: {
         disabled: {
           // active
-          activeBackgroundColor: themeContext.colors.primarydisabled,
-          activeFontColor: themeContext.colors.onprimary,
+          activeBackgroundColor: themeContext.colors.primaryDisabled,
+          activeFontColor: themeContext.colors.onPrimary,
 
           // hover
-          hoverBackgroundColor: themeContext.colors.primarydisabled,
-          hoverFontColor: themeContext.colors.onprimary,
+          hoverBackgroundColor: themeContext.colors.primaryDisabled,
+          hoverFontColor: themeContext.colors.onPrimary,
 
           // none
-          noneBackgroundColor: themeContext.colors.primarydisabled,
-          noneFontColor: themeContext.colors.onprimary,
+          noneBackgroundColor: themeContext.colors.primaryDisabled,
+          noneFontColor: themeContext.colors.onPrimary,
         },
         enabled: {
           // active
-          activeBackgroundColor: themeContext.colors.primaryactive,
-          activeFontColor: themeContext.colors.onprimary,
+          activeBackgroundColor: themeContext.colors.primaryActive,
+          activeFontColor: themeContext.colors.onPrimary,
 
           // hover
-          hoverBackgroundColor: themeContext.colors.primaryhover,
-          hoverFontColor: themeContext.colors.onprimary,
+          hoverBackgroundColor: themeContext.colors.primaryHover,
+          hoverFontColor: themeContext.colors.onPrimary,
 
           // none
           noneBackgroundColor: themeContext.colors.primary,
-          noneFontColor: themeContext.colors.onprimary,
+          noneFontColor: themeContext.colors.onPrimary,
         },
       },
       secondary: {
         enabled: {
           // active
-          activeBackgroundColor: themeContext.colors.surfaceactive,
-          activeFontColor: themeContext.colors.onsurface,
+          activeBackgroundColor: themeContext.colors.surfaceActive,
+          activeFontColor: themeContext.colors.onSurface,
 
           // hover
-          hoverBackgroundColor: themeContext.colors.surfacehover,
-          hoverFontColor: themeContext.colors.onsurface,
+          hoverBackgroundColor: themeContext.colors.surfaceHover,
+          hoverFontColor: themeContext.colors.onSurface,
 
           // none
           noneBackgroundColor: themeContext.colors.surface,
-          noneFontColor: themeContext.colors.onsurface,
+          noneFontColor: themeContext.colors.onSurface,
         },
         disabled: {
           // active
-          activeBackgroundColor: themeContext.colors.surfacedisabled,
-          activeFontColor: themeContext.colors.onsurface,
+          activeBackgroundColor: themeContext.colors.surfaceDisabled,
+          activeFontColor: themeContext.colors.onSurface,
 
           // hover
-          hoverBackgroundColor: themeContext.colors.surfacedisabled,
-          hoverFontColor: themeContext.colors.onsurface,
+          hoverBackgroundColor: themeContext.colors.surfaceDisabled,
+          hoverFontColor: themeContext.colors.onSurface,
 
           // none
-          noneBackgroundColor: themeContext.colors.surfacedisabled,
-          noneFontColor: themeContext.colors.onsurface,
+          noneBackgroundColor: themeContext.colors.surfaceDisabled,
+          noneFontColor: themeContext.colors.onSurface,
         },
       },
     },

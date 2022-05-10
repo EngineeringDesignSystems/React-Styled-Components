@@ -167,17 +167,17 @@ export interface IPrimitiveColors {
 
 export interface ICoreColors {
   background: Color;
-  onbackground: Color;
+  onBackground: Color;
   surface: Color;
-  surfaceactive: Color;
-  surfacedisabled: Color;
-  surfacehover: Color;
-  onsurface: Color;
+  surfaceActive: Color;
+  surfaceDisabled: Color;
+  surfaceHover: Color;
+  onSurface: Color;
   primary: Color;
-  primaryactive: Color;
-  primarydisabled: Color;
-  primaryhover: Color;
-  onprimary: Color;
+  primaryActive: Color;
+  primaryDisabled: Color;
+  primaryHover: Color;
+  onPrimary: Color;
 }
 
 export type TThemeColors = IPrimitiveColors & ICoreColors;
@@ -208,47 +208,47 @@ export const primitiveColors: IPrimitiveColors = {
 
 export const lightThemeColors: ICoreColors = {
   background: "#e5e7ebff",
-  onbackground: "#111827ff",
+  onBackground: "#111827ff",
   surface: "#f3f4f6ff",
-  surfaceactive: "#9ca3afff",
-  surfacedisabled: "#6b7280ff",
-  surfacehover: "#d1d5dbff",
-  onsurface: "#111827ff",
+  surfaceActive: "#9ca3afff",
+  surfaceDisabled: "#6b7280ff",
+  surfaceHover: "#d1d5dbff",
+  onSurface: "#111827ff",
   primary: "#3730a3ff",
-  primaryactive: "#312e81ff",
-  primarydisabled: "#4b5563ff",
-  primaryhover: "#3f40c2ff",
-  onprimary: "#f9fafbff",
+  primaryActive: "#312e81ff",
+  primaryDisabled: "#4b5563ff",
+  primaryHover: "#3f40c2ff",
+  onPrimary: "#f9fafbff",
 };
 
 export const darkThemeColors: ICoreColors = {
-  onbackground: "#f9fafbff",
-  onprimary: "#f9fafbff",
-  onsurface: "#f9fafbff",
+  onBackground: "#f9fafbff",
+  onPrimary: "#f9fafbff",
+  onSurface: "#f9fafbff",
   primary: "#3730a3ff",
   surface: "#374151ff",
   background: "#111827ff",
-  surfacehover: "#4b5563ff",
-  primaryhover: "#3f40c2ff",
-  primaryactive: "#312e81ff",
-  surfaceactive: "#1f2937ff",
-  primarydisabled: "#4b5563ff",
-  surfacedisabled: "#6b7280ff",
+  surfaceHover: "#4b5563ff",
+  primaryHover: "#3f40c2ff",
+  primaryActive: "#312e81ff",
+  surfaceActive: "#1f2937ff",
+  primaryDisabled: "#4b5563ff",
+  surfaceDisabled: "#6b7280ff",
 };
 
 export const coreColorsKeys = [
   "background",
   "surface",
-  "onsurface",
-  "onbackground",
+  "onSurface",
+  "onBackground",
   "primary",
-  "onprimary",
-  "primaryhover",
-  "primaryactive",
-  "surfacehover",
-  "surfaceactive",
-  "primarydisabled",
-  "surfacedisabled",
+  "onPrimary",
+  "primaryHover",
+  "primaryActive",
+  "surfaceHover",
+  "surfaceActive",
+  "primaryDisabled",
+  "surfaceDisabled",
 ];
 export const typographyKeys = [
   "heading1",
