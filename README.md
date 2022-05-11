@@ -1,7 +1,6 @@
 # Actionable Design Systems: React + styled-components
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c15acb86-19b0-4a66-8476-e57a672392f6/deploy-status)](https://app.netlify.com/sites/actionable-design-systems-react-styled-components/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c7cc006-2bf6-4bf0-90c4-1664d60efb3b/deploy-status)](https://app.netlify.com/sites/actionable-design-systems-react-styled-components/deploys)
 
 - [Live Site](https://actionable-design-systems-react-styled-components.netlify.app/)
 - [Figma Mockup](https://www.figma.com/file/zwUGIhow83YT0bCceds8Ow/Design-System-Starter?node-id=0%3A1)
@@ -24,13 +23,9 @@ This Project features:
   
 2. A general Button component that consumes theme context and has an API that matches the Button component in Figma. The Properties + Variants in Figma directly correspond to the component's API structure and interraction styles.
 
-4. A button that toggles the theme in the header of the page.
+3. A button that toggles the theme in the header of the page.
   
-
-  
-| Figma Properties  | Figma Diagram  |
-|---|---|
-| <img width="693" alt="Screen Shot 2022-05-09 at 1 42 13 PM" src="https://user-images.githubusercontent.com/5474124/167494370-54368ff7-a1fa-4568-bdb9-ec5d18af428a.png">  |  <img width="1313" alt="Button Diagram" src="https://user-images.githubusercontent.com/5474124/167493988-0a75b866-903c-489d-a62d-81687d3476c6.png">  |
+<img width="693" alt="Screen Shot 2022-05-09 at 1 42 13 PM" src="https://user-images.githubusercontent.com/5474124/167494370-54368ff7-a1fa-4568-bdb9-ec5d18af428a.png">
 
 **Button JSON Structure**:
 <img width="2782" alt="json" src="https://user-images.githubusercontent.com/5474124/167494527-39bdac91-23bd-47dc-a750-cb11d9996df9.png">
@@ -42,7 +37,7 @@ This project:
 
 1. Was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 2. Use [styled-components](https://styled-components.com/) for style utilities.
-
+3. Has manually added Design tokens from Figma.
 
 ## Quick start
 
@@ -55,7 +50,6 @@ In order to run this on your local:
 yarn install
 yarn start
 ```
-
 
 ## Testing
 
