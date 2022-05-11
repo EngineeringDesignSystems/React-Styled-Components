@@ -38,6 +38,7 @@ export const Button: React.FC<TButtonProps> = ({
 }) => {
   return (
     <ButtonStyled
+      disabled={buttonState === "disabled"}
       buttonState={buttonState}
       onClick={onClick}
       sizeVariant={sizeVariant}
