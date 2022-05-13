@@ -26,7 +26,8 @@ This Project features:
 
 3. A button that toggles the theme in the header of the page.
   
-<img width="693" alt="Screen Shot 2022-05-09 at 1 42 13 PM" src="https://user-images.githubusercontent.com/5474124/167494370-54368ff7-a1fa-4568-bdb9-ec5d18af428a.png">
+<img width="814" alt="Screen Shot 2022-05-13 at 11 48 35 AM" src="https://user-images.githubusercontent.com/5474124/168348244-facd0fec-adb8-437d-a6cd-969782adde43.png">
+
 
 **Button JSON Structure**:
 <img width="2782" alt="json" src="https://user-images.githubusercontent.com/5474124/167494527-39bdac91-23bd-47dc-a750-cb11d9996df9.png">
